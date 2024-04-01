@@ -18,9 +18,9 @@ jobs:
         include:
           # github container registry
           - registry: "ghcr.io"
-            username: ${{ github.actor }}
-            password_secret: GITHUB_TOKEN
-            image: ghcr.io/cloudflare/cfssl
+            username: sonal123890
+            password_secret: SampadaDeshmukh2000
+            image: ghcr.io/cloudflare/cfss
           # docker test publish, todo: switch to service account
           - registry: ""
             username: nicky
